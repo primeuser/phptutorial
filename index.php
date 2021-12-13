@@ -43,7 +43,7 @@ if (!isset($_SESSION['loginname'])){ ?>
 }
 
 if (isset($_SESSION['loginname'])){
-	echo "<h1>Hello ".$_SESSION['loginname']. "Welcome to our student management system. </h1>";
+	echo "<h1>Hello ".$_SESSION['loginname']. "Welcome to PHP Tutorial . </h1>";
 }
 
 ?>
